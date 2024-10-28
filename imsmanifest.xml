@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" standalone="no" ?>
+<manifest encoding="utf-8" identifier="il.ac.cet.scorm" version="1"
+         xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+         xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+         http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+         http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="player_default_org">
+    <organization identifier="player_default_org">
+      <title>לאום | מדינת לאום | לאומיות</title>
+      <item identifier="theitem" identifierref="homepage">
+        <title>לאום | מדינת לאום | לאומיות</title>
+        <adlcp:datafromlms>{ "document": "abd91044-f15b-4d30-abaa-724a7ded27d6", "language": "he", "majorVersion": 112, "hasGoogleDoc": false, "canEvaluate": "undefined" }</adlcp:datafromlms>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="homepage" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html"/>
+    </resource>
+  </resources>
+</manifest>
